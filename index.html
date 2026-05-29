@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Aniruddha Kulkarni's portfolio showcasing network engineering, SQA, automation, and project work."
+      content="Aniruddha Kulkarni's portfolio showcasing networking, infrastructure, automation, and project work."
     />
     <title>Aniruddha Kulkarni | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +25,7 @@
       <a class="brand" href="#home">AK</a>
       <nav class="nav">
         <a href="#about">About</a>
-        <a href="#resume">Resume</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -36,13 +36,12 @@
     <main id="home" class="page-shell">
       <section class="hero">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Network Engineer & SQA Engineer</p>
-          <h1>I build reliable systems and automate quality into the workflow.</h1>
+          <p class="eyebrow">Network Engineer</p>
+          <h1>I build reliable networks and automate the work behind them.</h1>
           <p class="lede">
             Hi, I'm <strong>Aniruddha Kulkarni</strong>. I work across networking,
-            automation, and quality assurance, with experience in enterprise network
-            troubleshooting, Playwright/Cypress test automation, and cloud-backed lab
-            environments.
+            automation, and infrastructure, with experience in enterprise network
+            troubleshooting, routing, switching, and cloud-backed lab environments.
           </p>
           <div class="hero-actions">
             <a class="button" href="#projects">See my projects</a>
@@ -55,11 +54,11 @@
             </div>
             <div>
               <span>8+</span>
-              <p>core technologies across networking and QA</p>
+              <p>core networking and automation technologies</p>
             </div>
             <div>
               <span>2026</span>
-              <p>expected MS in Telecommunications</p>
+              <p>MS in Telecommunications, University of Maryland</p>
             </div>
           </div>
         </div>
@@ -69,11 +68,11 @@
             <div class="profile-avatar">AK</div>
           </div>
           <h2>Aniruddha Kulkarni</h2>
-          <p>Network Engineer, SQA Engineer, and automation-focused problem solver.</p>
+          <p>Network Engineer and automation-focused problem solver.</p>
           <ul class="quick-facts">
             <li>aniruddhakulkarni97@gmail.com</li>
             <li>240-305-0594</li>
-            <li>Based in College Park, MD / open to roles in networking and QA</li>
+            <li>Based in College Park, MD / open to networking roles</li>
           </ul>
         </aside>
       </section>
@@ -81,56 +80,133 @@
       <section id="about" class="content-section reveal">
         <div class="section-heading">
           <p class="eyebrow">About</p>
-          <h2>Network engineering experience with an automation and testing mindset.</h2>
+          <h2>Network engineering experience with an automation mindset.</h2>
         </div>
         <div class="split-grid">
           <p>
             I have worked in enterprise-style network environments supporting routing,
             switching, VPNs, firewalls, and load balancers, while also building
-            automated test coverage for transportation analytics applications.
+            automation around repeatable network tasks and validation.
           </p>
           <p>
-            My focus is on reliable systems, reproducible testing, and practical
-            automation. I like work where infrastructure, software quality, and
-            documentation all need to line up cleanly.
+            My focus is on reliable systems, practical automation, and clear
+            documentation. I like work where infrastructure and operations need to
+            line up cleanly.
           </p>
         </div>
       </section>
 
-      <section id="resume" class="content-section reveal">
+      <section id="experience" class="content-section reveal">
         <div class="section-heading">
-          <p class="eyebrow">Resume</p>
-          <h2>Experience, education, and certifications from the resume.</h2>
+          <p class="eyebrow">Experience</p>
         </div>
-        <div class="resume-grid">
-          <article class="resume-card">
-            <p class="project-meta">Experience</p>
+        <div class="experience-grid">
+          <article class="experience-card">
             <h3>Network Engineer</h3>
-            <p class="resume-subtext">Radware via ACL Digital · June 2021 - July 2024</p>
-            <p>
-              Supported enterprise network environments, validated routing and
-              segmentation features such as OSPF, BGP, NAT, IPsec, and VLANs, and
-              troubleshot issues with Wireshark, tcpdump, Python, and REST APIs.
-            </p>
+            <p class="resume-subtext">Radware [via ACL Digital] · June 2021 - July 2024</p>
+            <ul>
+              <li>Supported enterprise network environments across L2–L7 topologies.</li>
+              <li>Validated and configured OSPF, BGP, NAT, IPsec, VLAN segmentation, and load balancing features on ADCs.</li>
+              <li>Performed packet-level troubleshooting with Wireshark and tcpdump.</li>
+              <li>Built ESXi-based lab environments to reproduce and validate customer issues.</li>
+              <li>Automated repeatable testing and validation tasks using Python and REST APIs.</li>
+            </ul>
           </article>
-          <article class="resume-card">
-            <p class="project-meta">Education</p>
-            <h3>MS in Telecommunications</h3>
-            <p class="resume-subtext">University of Maryland, College Park · Expected May 2026</p>
-            <p>
-              Also earned a B.Tech. in Computer Engineering from the University of
-              Pune, completed June 2017 to May 2020.
-            </p>
+          <article class="experience-card">
+            <h3>SQA / Automation Engineer</h3>
+            <p class="resume-subtext">CATT Lab, University of Maryland · June 2025 - Present</p>
+            <ul>
+              <li>Automated regression and E2E tests using Playwright and Cypress in Jenkins CI.</li>
+              <li>Performed REST API and data validation with Postman/Newman and PostgreSQL.</li>
+              <li>Built automation workflows and validation tools to reduce manual testing effort.</li>
+            </ul>
           </article>
-          <article class="resume-card">
-            <p class="project-meta">Certifications</p>
-            <h3>Network and security credentials</h3>
-            <p class="resume-subtext">CCNA, JNICA, JNCAA, Network+, Security+, A+</p>
-            <p>
-              Additional work spans AWS, Azure, GCP, OpenStack, VMware ESXi, Docker,
-              Kubernetes, Jenkins, GitLab CI/CD, and Ansible/Terraform automation.
-            </p>
-          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+        </div>
+        <div class="projects-list">
+          <details>
+            <summary>BGP Route Optimization — ML project</summary>
+            <p>Developed a machine learning-based BGP route optimization system using Scapy, BGPStream, Scikit-learn, and ExaBGP to analyze latency and routing patterns and improve path selection.</p>
+          </details>
+
+          <details>
+            <summary>Home Lab & Secure NAS Infrastructure</summary>
+            <p>Implemented Pi-hole DNS filtering, a 512GB TrueNAS NAS, and secure remote access through Cloudflare Tunnel; built an AI-powered local photo system for private, self-hosted media management.</p>
+          </details>
+
+          <details>
+            <summary>Network Automation Framework for ADC Validation</summary>
+            <p>Built automation workflows and REST API validators to test L2–L7 networking and application delivery features on Radware Alteon ADCs, improving regression coverage.</p>
+          </details>
+
+          <details>
+            <summary>CLI Crawler & REST API Validation Tools</summary>
+            <p>Developed internal CLI crawlers and REST API crawlers to validate command/API stability and automate regression testing across platforms.</p>
+          </details>
+
+          <details>
+            <summary>ESXi-based Virtual Network Lab & Routing Testbeds</summary>
+            <p>Designed virtual lab topologies to validate BGP/OSPF/VXLAN/ GRE behaviors, test failover, and reproduce customer issues for debugging and validation.</p>
+          </details>
+
+          <details>
+            <summary>Other projects & internships (expand)</summary>
+            <p>ECG signal analysis, internships in game dev and GCP deployment, and various automation utilities.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="education" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+        </div>
+        <div class="education-grid">
+          <div class="edu-card umd">
+            <div class="edu-inner">
+              <img class="edu-logo" src="https://umd-brand.transforms.svdcdn.com/production/uploads/images/logos-formal-seal.jpg?w=1801&h=1801&auto=compress%2Cformat&fit=crop&dm=1651267392&s=81a14f930f7888983f0f8bc10146c0b2" alt="University of Maryland logo" />
+              <div class="edu-body">
+                <h3>University of Maryland</h3>
+                <p class="resume-subtext">M.S. in Telecommunications</p>
+              </div>
+              <div class="edu-meta">
+                <span class="gpa">GPA 3.8 / 4.0</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card pune">
+            <div class="edu-inner">
+              <img class="edu-logo" src="https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/305297603_610805290399540_2645544896878773804_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=JQ773QSQ1ysQ7kNvwE4vSl6&_nc_oc=AdoIF27j-IKXymBJU_hNYSeXnTM8uUHideBHrqaYrFykgNTffRzge90L_LHyq4QPV-t8ia8xTYkk308US6FJx54u&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=M3OsJgaSfhuZpsHAuMalyQ&_nc_ss=7b2a8&oh=00_Af4xhlPOtcW9ibO8ohC1PhbCBEKAq6WItRTWEnrG9VaKfg&oe=6A1EBF3C" alt="University of Pune logo" />
+                  <img class="edu-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/University_of_Pune_logo.png/120px-University_of_Pune_logo.png" alt="Savitribai Phule Pune University logo" />
+                <h3>University of Pune</h3>
+                <p class="resume-subtext">B.E. in Computer Engineering</p>
+              </div>
+              <div class="edu-meta">
+                <span class="gpa">GPA 8.1 / 10.0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Certifications</p>
+        </div>
+        <div class="cert-grid">
+          <p class="resume-subtext">CCNA, JNICA, JNCAA, Network+, Security+, A+</p>
+          <p>Additional experience with cloud and automation platforms: AWS, Azure, GCP, OpenStack, VMware ESXi, Docker, Kubernetes, Jenkins, GitLab CI/CD, Ansible, Terraform.</p>
+        </div>
+      </section>
+
+      <section id="highlights" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Highlights</p>
         </div>
         <div class="resume-highlights">
           <div>
@@ -139,102 +215,126 @@
           </div>
           <div>
             <span>Focus</span>
-            <p>Network troubleshooting, automation, E2E testing, and CI/CD validation</p>
+            <p>Network troubleshooting, automation, routing, and infrastructure validation</p>
           </div>
           <div>
             <span>Summary</span>
-            <p>Network engineer and SQA engineer building reliable systems and repeatable tests</p>
+            <p>Network engineer building reliable systems and repeatable automation</p>
           </div>
         </div>
       </section>
 
-      <section id="projects" class="content-section reveal">
+      <section id="awards" class="content-section reveal">
         <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2>Selected work from the resume.</h2>
+          <p class="eyebrow">Awards & Honors</p>
         </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <p class="project-meta">01 · ML networking project</p>
-            <h3>BGP Route Optimization</h3>
-            <p>
-              Built a machine learning-based BGP route optimization system using
-              Scapy, BGPStream, Scikit-learn, and ExaBGP to improve path selection.
-            </p>
-            <a href="#contact">View case study</a>
-          </article>
-          <article class="project-card">
-            <p class="project-meta">02 · Infrastructure project</p>
-            <h3>Home Lab & Secure NAS Infrastructure</h3>
-            <p>
-              Implemented Pi-hole DNS filtering, a 512 GB TrueNAS NAS, and secure
-              remote access through Cloudflare Tunnel for a self-hosted home lab.
-            </p>
-            <a href="#contact">View case study</a>
-          </article>
-          <article class="project-card">
-            <p class="project-meta">03 · Testing automation</p>
-            <h3>Transportation Analytics QA Automation</h3>
-            <p>
-              Automated regression and E2E tests using Playwright and Cypress with
-              Jenkins, reducing manual testing effort and accelerating releases.
-            </p>
-            <a href="#contact">View case study</a>
-          </article>
+        <div class="awards-list">
+          <div class="award-item">
+            <h3>Exceptional Performance Award</h3>
+            <p class="resume-subtext">Recognized for Automation and GEL feature support — Radware, 2023</p>
+          </div>
+          <div class="award-item">
+            <h3>Center of Excellence Team</h3>
+            <p class="resume-subtext">Contributed to Red Hat-certified Ansible modules — ACL Digital, 2023</p>
+          </div>
+          <div class="award-item">
+            <h3>Rising Star Award</h3>
+            <p class="resume-subtext">Recognized for strong early contributions and rapid ramp-up as a fresher — ACL Digital, 2022</p>
+          </div>
         </div>
       </section>
+
+      
 
       <section id="skills" class="content-section reveal">
         <div class="section-heading">
           <p class="eyebrow">Technical skills</p>
-          <h2>A concise view of the resume skill areas.</h2>
         </div>
-        <div class="chips">
-          <span>Python</span>
-          <span>JavaScript</span>
-          <span>C/C++</span>
-          <span>SQL</span>
-          <span>Bash</span>
-          <span>Groovy</span>
-          <span>Playwright</span>
-          <span>Cypress</span>
-          <span>Ansible</span>
-          <span>Terraform</span>
-          <span>Jenkins</span>
-          <span>GitLab CI/CD</span>
-          <span>REST APIs</span>
-          <span>TCP/IP</span>
-          <span>OSPF</span>
-          <span>BGP</span>
-          <span>IPv4/IPv6</span>
-          <span>IPsec VPN</span>
-          <span>AWS</span>
-          <span>Azure</span>
-          <span>GCP</span>
-          <span>Docker</span>
-          <span>Kubernetes</span>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <p class="skill-heading">Programming & scripting</p>
+            <div class="chips">
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>C/C++</span>
+              <span>SQL</span>
+              <span>Bash</span>
+              <span>Groovy</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-heading">Networking & protocols</p>
+            <div class="chips">
+              <span>TCP/IP</span>
+              <span>VLANs</span>
+              <span>NAT</span>
+              <span>IPsec VPN</span>
+              <span>Load balancing</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-heading">Routing</p>
+            <div class="chips">
+              <span>OSPF</span>
+              <span>BGP</span>
+              <span>IPv4</span>
+              <span>IPv6</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-heading">Cloud</p>
+            <div class="chips">
+              <span>AWS</span>
+              <span>Azure</span>
+              <span>GCP</span>
+              <span>OpenStack</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-heading">Virtualization & containers</p>
+            <div class="chips">
+              <span>VMware ESXi</span>
+              <span>Docker</span>
+              <span>Kubernetes</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <p class="skill-heading">Automation & CI/CD</p>
+            <div class="chips">
+              <span>Ansible</span>
+              <span>Terraform</span>
+              <span>Jenkins</span>
+              <span>GitLab CI</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="contact" class="content-section contact-panel reveal">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>Open to network engineering, QA, and automation opportunities.</h2>
+          <h2>Open to network engineering and infrastructure opportunities.</h2>
           <p>
-            Reach out if you want to talk about infrastructure, test automation, or
+            Reach out if you want to talk about routing, infrastructure, or
             reliability-focused engineering work.
           </p>
         </div>
         <div class="contact-links">
           <a href="mailto:aniruddhakulkarni97@gmail.com">aniruddhakulkarni97@gmail.com</a>
-          <a href="tel:2403050594">240-305-0594</a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="tel:+12403050594">+1 240-305-0594</a> 
+          <a href="https://www.linkedin.com/in/aniruddhakulk/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Portfolio built from your resume and ready for GitHub Pages.</p>
+      <p> </p>
     </footer>
   </body>
 </html>
